@@ -8,20 +8,20 @@ class Zmanager < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/tzap-org/zmanager/releases/download/v2.2.0/zm-aarch64-apple-darwin.tar.gz"
-      sha256 "0909799ddd9dbdde93358595434b79ff222a18700cb5c53eaaaff1cd5dd6d7d8"
+      sha256 "31801763abc2be875dcfe6906a14059f7e4ed44050b945ba507d2aa22a558c20"
     else
       url "https://github.com/tzap-org/zmanager/releases/download/v2.2.0/zm-x86_64-apple-darwin.tar.gz"
-      sha256 "c980cb0fcc251e3bc1db39b059f6f2140afefad04be5fd2cff870ba06cad5c94"
+      sha256 "f7450e51c90f9fa1bd03d56792d82ad393310ab08c7f4321fee8e832f3073a3d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/tzap-org/zmanager/releases/download/v2.2.0/zm-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "830e8db9c1b043fdccfe15ca46237a1c12454b431b6dca3c96639519e5b7600a"
+      sha256 "9de8a38c1da5057cc7215223a8829e14bfa70018053fe5bd579ab6f4f5a4e2b0"
     else
       url "https://github.com/tzap-org/zmanager/releases/download/v2.2.0/zm-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c57bc89f81fd5a8827e6081cbd6936fd7d18d0e771454184d624fcd8677e2b70"
+      sha256 "582f8da3165ce8af1f702e391c57d52f03a4419a0314f2b5db9bce4382c058b8"
     end
   end
 
