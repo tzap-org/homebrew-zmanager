@@ -1,27 +1,27 @@
 class Zmanager < Formula
   desc "Universal file archiver for fast compression and safe extraction (offline signer)"
   homepage "https://github.com/tzap-org/zmanager"
-  version "2.2.0"
+  version "2.2.1"
   license all_of: ["Apache-2.0", :cannot_represent]
 
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tzap-org/zmanager/releases/download/v2.2.0/zm-aarch64-apple-darwin.tar.gz"
-      sha256 "31801763abc2be875dcfe6906a14059f7e4ed44050b945ba507d2aa22a558c20"
+      url "https://github.com/tzap-org/zmanager/releases/download/v2.2.1/zm-aarch64-apple-darwin.tar.gz"
+      sha256 "533d1b0589f103544b59ba725d5b7a222f3d9f699287a30c55e00c6ef813fc20"
     else
-      url "https://github.com/tzap-org/zmanager/releases/download/v2.2.0/zm-x86_64-apple-darwin.tar.gz"
-      sha256 "f7450e51c90f9fa1bd03d56792d82ad393310ab08c7f4321fee8e832f3073a3d"
+      url "https://github.com/tzap-org/zmanager/releases/download/v2.2.1/zm-x86_64-apple-darwin.tar.gz"
+      sha256 "6d91b910a81d1012f509362cf493120bad3ad9a56ea3472173d820306d5c226b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tzap-org/zmanager/releases/download/v2.2.0/zm-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9de8a38c1da5057cc7215223a8829e14bfa70018053fe5bd579ab6f4f5a4e2b0"
+      url "https://github.com/tzap-org/zmanager/releases/download/v2.2.1/zm-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "bf5f5defd98eb8d8073099e615832bb686d84656bd40d366c14b58bbd0e94b0d"
     else
-      url "https://github.com/tzap-org/zmanager/releases/download/v2.2.0/zm-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "582f8da3165ce8af1f702e391c57d52f03a4419a0314f2b5db9bce4382c058b8"
+      url "https://github.com/tzap-org/zmanager/releases/download/v2.2.1/zm-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "fc290076b865c64b5e50b5af7f6615fb13b8959f5c93b7dfb3dc997806f12952"
     end
   end
 
