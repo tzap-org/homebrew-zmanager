@@ -1,6 +1,7 @@
 class ZmanagerFull < Formula
   desc "Universal file archiver with hosted identity and enrollment support"
   homepage "https://github.com/tzap-org/zmanager"
+  version "2.3.0"
   license all_of: ["Apache-2.0", :cannot_represent]
 
   on_macos do
